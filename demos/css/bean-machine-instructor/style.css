@@ -1,0 +1,147 @@
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol, ul, menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+html, 
+body { 
+  margin: 0;
+  padding: 0; 
+}
+
+/* typography */
+ body {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #1D1C1C;
+ }
+
+h1 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 80px;
+  margin: 0;
+  padding: 0; 
+}
+h2 {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 38px;
+}
+p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+/* base layout */
+body {
+  min-height: 100vh;
+}
+
+body, 
+main {
+   display: flex;
+   flex: 1 1 auto;
+   flex-direction: column;
+ }
+.container {
+	width: 1160px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav  { 
+  display: flex;
+}
+nav a {
+  display: inline-block;
+  padding-left:16px;
+  color: #1D1C1C;
+  font-size: 14px;
+  line-height: 18px;
+}
+footer {
+  background-color: black;
+  color:#fff;
+  text-align: center;
+  padding:30px 0
+}
+/* sections */
+.hero {
+  display: flex;
+}
+.hero form {
+  display: flex;
+  padding-top: 30px;
+}
+.hero form input {
+  background: #F6F2EF;
+  border: none;
+  width: 300px;
+  height: 40px;
+}
+
+.hero form img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.flex {
+	display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:30px
+}
+.flex .col {
+  flex: 0 1 300px;
+  background: #F6F2EF;
+  border-radius: 10px;
+  padding:20px 0;
+  text-align: center;
+}
+.flex .col img {
+	width: 192px;
+  border-radius: 10px;
+}
+.flex .col p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color:#917D6E
+}
+.flex .col .btn {
+  display: block;
+  text-decoration: none;
+  color:#fff;
+  background: #FF5678;
+  border-radius: 8px;
+  padding: 8px;
+  width: 157px;
+  margin: auto;
+}
