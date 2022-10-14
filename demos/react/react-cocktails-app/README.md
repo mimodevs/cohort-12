@@ -1,3 +1,7 @@
+TO INSTALL FIRST DO:
+npm install
+(on your commandline)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
