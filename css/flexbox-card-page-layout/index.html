@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flexbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+  <!-- base styles for font, color, links, buttons, etc -->
+  <link rel="stylesheet" href="css/base.css" >
+  <!-- main style for flex and layouts -->
+  <link rel="stylesheet" href="css/style.css" >
+</head>
+  <body>
+    <header class="header">
+			<div class="container header-container">
+        <h1 class="logo">FLEXBOX</h1>
+				<nav class="nav">
+					<ul>
+            <li>
+							<a href="https://mimodocs.notion.site/CSS-Layout-Flexbox-and-Grid-7c3e980c141b4189acd909693b9b24d8#de588a49338f4e40ac67aa86ee79f9d7" target="_blank">MimoDocs</a>
+						</li>
+						<li>
+							<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">FlexDocs</a>
+						</li>
+            <li>
+							<a href="https://flexbox.ninja/" target="_blank">FlexNinja</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+    <main class="main">
+
+      <section class="container">
+      
+        <div class="flex">
+          <div class="col">
+            <a class="thumbnail" href="https://picsum.photos/" target="_blank">
+              <img src="img/placeholder1.gif" width="300" height="200" alt="Lorem Picsom">
+            </a>
+            <div class="teaser">
+              <h3>Lorem Picsom</h3>
+              <p>
+                “Lorem Ipsum...but for photos” reads the tagline. 
+                Start by selecting your dimensions, add filters and gravity, and even return a list of photos.
+              </p>            
+            </div>
+            <div class="read-more">
+              <a class="btn" href="https://picsum.photos/" target="_blank">Read More</a>
+            </div>
+          </div>
+
+          <div class="col">             
+            <a class="thumbnail" href="https://placebeyonce.com/" target="_blank">
+              <img src="img/placeholder2.gif" width="300" height="200" alt="Place Beyonce">
+            </a>
+            <div class="teaser">
+              <h3>Place Beyonce</h3>
+              <p>Use Placebeyoncé to win over hard nosed clients and dower colleagues alike.</p>
+            </div>
+            <div class="read-more">
+              <a class="btn" href="https://placebeyonce.com/" target="_blank">Read More</a>
+            </div>
+          </div>
+
+          <div class="col">              
+            <a class="thumbnail" href="https://placekitten.com/" target="_blank">
+              <img src="img/placeholder3.gif" width="300" height="200" alt="Place Kitten">
+            </a>
+            <div class="teaser">
+              <h3>Place Kitten</h3>
+              <p>I can has placeholder imagez? Yes, yes you can. 
+                Our list wouldn't be complete without the requisite feline-inspired image generator, 
+                bursting with cute and fluffy friends.</p>      
+            </div>
+            <div class="read-more">
+              <a class="btn" href="https://placekitten.com/" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>Simple layouts with Flexbox</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  box-sizing: border-box
+}
+html, body {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  display: flex;  
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 100vh 
+}
+
+header, footer, aside, section {
+  padding: 20px
+}
+
+main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column
+}
+
+section {
+  flex: 1 1 auto
+}
+
+@media (min-width: 768px) {
+  .sidebar-left {
+    order: -1
+  }
+  main {
+    flex-direction: row
+  }
+  aside {
+    flex: 0 0 260px
+  }
+}
+
+/** temp styles for demo  */
+html, body {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  color: #FFF
+}
+header, footer { background: #FED0D1}
+aside { background: #F34A4E}
+section { color: #777}

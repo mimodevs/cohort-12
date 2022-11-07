@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flexbox: Split Screen Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main id="wrapper">
+      <section id="article-tip" class="container">
+        <div id="article-tip-cover" class="article-cover col col-left">
+          <div class="img">
+          <img src="img/Insights.svg">
+        </div>
+
+          <h1 class="article-cover-title">Split Flex</h1>
+          <h3>Lorem Ipsum</h3>
+          <small>Responsive Layouts</small>
+        </div>
+
+        <div id="article-tip-content" class="article-content col col-right">
+          <h1 class="article-content-title">Ideas?</h1>
+          <div id="form-container">
+            
+            <div class="form-box">
+              <form class="c-form" name="c-form">
+                <div class="two-columns">
+                  <fieldset>
+                    <label class="c-form-label" for="last-name">Last name<span class="c-form-required"> *</span></label>
+                    <input id="last-name" class="c-form-input" type="text" name="your-last-name" placeholder="Your last name" required>
+                  </fieldset>
+      
+                  <fieldset>
+                    <label class="c-form-label" for="first-name">First name<span class="c-form-required"> *</span></label>
+                    <input id="first-name" class="c-form-input" type="text" name="your-first-name" placeholder="Your first name" required>
+                  </fieldset>
+                </div>
+      
+                <fieldset>
+                  <label class="c-form-label" for="email">Email address<span class="c-form-required"> *</span></label>
+                  <input id="email" class="c-form-input" type="email" name="your-email" placeholder="Email@example.com" required>
+                </fieldset>
+      
+                <fieldset>
+                  <label class="c-form-label" for="subject">Subject<span class="c-form-required"> *</span></label>
+                  <input id="subject" class="c-form-input" type="text" name="your-subject" placeholder="Enter subject" required>
+                </fieldset>
+      
+                <fieldset>
+                  <label class="c-form-label" for="comments">Comments<span class="c-form-required"> *</span></label>
+                  <textarea id="comments" class="c-form-input" name="your-comments" placeholder="Enter comments" required></textarea>
+                </fieldset>
+                <button class="c-form-btn" type="submit">SUBMIT</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
